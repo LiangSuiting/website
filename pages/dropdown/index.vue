@@ -1,6 +1,6 @@
 <template>
 	<view class="dropdown-demo">
-		<button @click="toggleDropdown">打开下拉菜单</button>
+		<button @click="toggleDropdown" class="fa fa-angle-down" style="font-size: 29px;"></button>
 		<view v-show="isDropdownOpen" class="dropdown-menu">
 			<!-- 下拉菜单的内容 -->
 			<text @click="selectOption('Option 1')">
